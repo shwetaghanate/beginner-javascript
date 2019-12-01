@@ -1,0 +1,7 @@
+var myObj = {1: "NewYork" , 2: "London", 3: "Shanghai", 4: "Mumbai"}
+
+var cityName= "Mumbai";
+
+if(myObj[cityName] != undefined){
+  alert("City present in Object" , myObj[cityName]);
+}
